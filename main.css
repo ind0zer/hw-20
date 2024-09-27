@@ -1,11 +1,20 @@
+ul {
+    list-style: none;
+}
+
 .gallery {
   display: flex;
   overflow-x: auto;
+  flex-wrap: wrap;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 200px;
 }
 
 .image {
-  width: 300px;
-  height: 200px;
+  width: 500px;
+  height: 300px;
   object-fit: cover;
   margin-right: 20px;
   cursor: pointer;
@@ -32,3 +41,5 @@
   left: 0;
   right: 0;
 }
+
+
